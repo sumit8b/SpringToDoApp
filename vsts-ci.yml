@@ -10,7 +10,6 @@ steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
     javaHomeOption: 'path'
     jdkDirectory: 'C:\software\jdk1.8.0_181'
     jdkVersionOption: '1.8'
