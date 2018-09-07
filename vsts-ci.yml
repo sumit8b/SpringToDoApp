@@ -11,7 +11,8 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
+    javaHomeOption: 'path'
+    jdkDirectory: 'C:\software\jdk1.8.0_181'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     goals: 'package'
