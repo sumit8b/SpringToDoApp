@@ -1,0 +1,10 @@
+package com.sumit.todo.repositories;
+
+import org.springframework.data.mongodb.repository.cdi.MongoRepositoryBean;
+import org.springframework.stereotype.Repository;
+
+import com.sumit.todo.models.Todo;
+
+public class TodoRepository extends MongoRepositoryBean<Todo, String>{
+
+}

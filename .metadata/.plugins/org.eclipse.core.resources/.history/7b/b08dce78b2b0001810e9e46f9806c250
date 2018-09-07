@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.sumit.todo.models;
+
+/**
+ * @author mailm
+ *
+ */
+public class ToDo {
+
+}
