@@ -21,7 +21,7 @@ import com.sumit.todo.models.Todo;
 import com.sumit.todo.repositories.TodoRepository;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/apigee")
 @CrossOrigin("*")
 public class TodoController {
 	@Autowired
