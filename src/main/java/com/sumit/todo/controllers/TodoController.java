@@ -1,7 +1,7 @@
 package com.sumit.todo.controllers;
 /**
 @author: Sumit Bhattacharjee
-@Description: ToDo controller class
+@Description: ToDo controller class. This is controller for ToDo REST service
 **/
 import java.util.List;
 
